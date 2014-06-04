@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="fill_vertical"
+    tools:context=".ChooseActivity" >
+    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/header" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:onClick="CatActivity"
+        android:background="@drawable/gradient"
+        android:textColor="#688712"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:text="@string/for_cats" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="10dp"
+        android:onClick="BirdActivity"
+        android:background="@drawable/gradient"
+        android:textColor="#688712"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:text="@string/for_birds" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_below="@+id/button3"
+        android:layout_marginTop="10dp"
+        android:onClick="LittleActivity"
+        android:background="@drawable/gradient"
+        android:textColor="#688712"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:text="@string/for_little_animals" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_below="@+id/button4"
+        android:layout_marginTop="10dp"
+        android:onClick="AquaActivity"
+        android:background="@drawable/gradient"
+        android:textColor="#688712"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:text="@string/for_aqua" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:layout_alignLeft="@+id/button5"
+        android:layout_below="@+id/button5"
+        android:layout_marginTop="10dp"
+        android:onClick="TeraActivity"
+        android:background="@drawable/gradient"
+        android:textColor="#688712"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:text="@string/for_terra" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/gradient"
+        android:onClick="DogActivity"
+        android:text="@string/for_dogs"
+        android:textColor="#688712"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+
+
+</RelativeLayout>

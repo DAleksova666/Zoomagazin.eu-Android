@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ContentDescription">
+        <ignore path="res/layout/activity_choose.xml" />
+        <ignore path="res/layout/activity_main.xml" />
+        <ignore path="res/layout/activity_news.xml" />
+        <ignore path="res/layout/activity_options.xml" />
+        <ignore path="res/layout/activity_products.xml" />
+        <ignore path="res/layout/activity_single_product.xml" />
+    </issue>
+</lint>
